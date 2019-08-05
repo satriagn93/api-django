@@ -1,5 +1,5 @@
 # CRM-with-django
-Create mini model CRM with django
+Create Modul mini CRM with django 2.1.7
 
 1. install django 2.1.7 dan python 3
 2. install dan create virtualenv
