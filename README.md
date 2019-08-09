@@ -6,9 +6,9 @@ Database = postgresql
 
 1. install django 2.1.7 dan python 3
 
-check django version: django-admin --version
+    1.1 check django version: django-admin --version
 
-check python version: python -V
+    1.2 check python version: python -V
 
 2. install dan create virtualenv
 
@@ -43,9 +43,9 @@ DATABASES = {
 
 7. migrate database: 
 
-./manage.py makemigrations
+    7.1 ./manage.py makemigrations
 
-./manage.py migrate
+    7.2 ./manage.py migrate
 
 8. jalankan aplikasi: ./manage.py runserver
  
