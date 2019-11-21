@@ -1,24 +1,30 @@
-# CRM-with-django
+Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
-Create Modul mini CRM with django 2.1.7 dan python 3
+Requirements:
+REST framework requires the following:
 
-Database = postgresql
+Python (3.5, 3.6, 3.7)
+Django (1.11, 2.0, 2.1, 2.2)
 
-1. install django 2.1.7 dan python 3
+Installation:
+pip install djangorestframework
+pip install markdown       # Markdown support for the browsable API.
+pip install django-filter  # Filtering support
 
-    1.1 check django version: django-admin --version
+Add 'rest_framework' to your INSTALLED_APPS setting.
 
-    1.2 check python version: python -V
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+]
 
-2. install dan create virtualenv
+1. install dan create virtualenv
 
-3. clone project didalam folder environment 
+2. clone project didalam folder environment 
 
-   ketik di terminal " git clone https://github.com/satriagn93/CRM-with-django.git "
+3. buat database dengan nama minicrmdjango
 
-4. buat database dengan nama minicrmdjango
-
-5. setting database didalam folder minicrm > settings.py pada bagian:
+4. setting database didalam folder minicrm > settings.py pada bagian:
 
 DATABASES = {
 
@@ -39,13 +45,13 @@ DATABASES = {
 
 }
 
-6. install requirements: pip install requirements.txt
+5. install requirements: pip install requirements.txt
 
-7. migrate database: 
+6. migrate database: 
 
-    7.1 ./manage.py makemigrations
+    6.1 ./manage.py makemigrations
 
-    7.2 ./manage.py migrate
+    6.2 ./manage.py migrate
 
-8. jalankan aplikasi: ./manage.py runserver
+7. jalankan aplikasi: ./manage.py runserver
  
