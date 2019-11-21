@@ -1,21 +1,29 @@
 Django REST framework is a powerful and flexible toolkit for building Web APIs.
 
 Requirements:
+
 REST framework requires the following:
 
 Python (3.5, 3.6, 3.7)
+
 Django (1.11, 2.0, 2.1, 2.2)
 
 Installation:
+
 pip install djangorestframework
+
 pip install markdown       # Markdown support for the browsable API.
+
 pip install django-filter  # Filtering support
 
 Add 'rest_framework' to your INSTALLED_APPS setting.
 
 INSTALLED_APPS = [
+
     ...
+
     'rest_framework',
+
 ]
 
 1. install dan create virtualenv
