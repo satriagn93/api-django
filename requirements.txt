@@ -12,7 +12,7 @@ django-polymorphic==2.0.3
 django-simple-history==1.9.1
 django-smart-selects==1.5.4
 django-treewidget==0.3.1
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 easy-thumbnails==2.6
 Markdown==3.1.1
